@@ -10,6 +10,9 @@
         "php": "^7.3|^8.0"
     },
     "autoload": {
+        "files": [
+            "helpers.php"
+        ],
         "psr-4": {
             "Andriichello\\ColumnsCard\\": "src/"
         }
