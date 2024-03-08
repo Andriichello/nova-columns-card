@@ -1,5 +1,5 @@
 {
-    "name": "andriichello/columns-card",
+    "name": "andriichello/nova-columns-card",
     "description": "A Laravel Nova card for showing/hiding columns of resource on index.",
     "keywords": [
         "laravel",

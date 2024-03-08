@@ -10,7 +10,7 @@ use Laravel\Nova\Fields\BelongsToMany;
 use Laravel\Nova\Fields\Field as NovaField;
 use Laravel\Nova\Fields\FieldCollection;
 use Laravel\Nova\Fields\HasMany;
-use Laravel\Nova\FilterDecoder;
+use Laravel\Nova\Filters\FilterDecoder;
 use Laravel\Nova\Http\Controllers\ActionController;
 use Laravel\Nova\Http\Controllers\FilterController;
 use Laravel\Nova\Http\Controllers\LensController;
@@ -249,6 +249,9 @@ trait HasColumnsFilter
     {
         return [
             'title' => 'Columns',
+            'button' => [
+                'apply' => 'Apply',
+            ],
 
             'cache' => ['key' => $this->getCacheKey()],
 
